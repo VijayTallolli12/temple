@@ -1,0 +1,33 @@
+{
+
+    "short_name": "shiroormutt",
+
+    "name": "Shree Shiroor Matha",
+
+    "description": "Shiroor Matha is a Hindu monastery and one of the Ashta Mathas of Udupi. It which was founded by Sri Vamana Tirtha at Shiroor village on the banks of Suvarna River in Udupi, Karnataka who was a direct disciple of Sri Madhvacharya, the founder of the Dvaita school of Hindu philosophy",
+
+    "icons": [
+
+        {
+
+            "src": "uploads/images/PWA_icon144.png",
+
+            "type": "image/png",
+
+            "sizes": "144x144"
+
+        }
+
+    ],
+
+    "id": "shiroormath",
+
+    "start_url": "http://localhost/shiroormath/",
+
+    "background_color": "#7E4555",
+
+    "display": "standalone",
+
+    "theme_color": "#7E4555"
+
+}

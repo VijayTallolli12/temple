@@ -1,0 +1,323 @@
+/* sticky header */
+
+.content {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.sticky+.content {
+    padding-top: 102px;
+}
+
+
+/* end of sticky header */
+
+.footer-widget .sigma_sm li a i {
+    color: #db4242;
+}
+
+.sigma_footer-logo img {
+    height: 120px;
+    object-fit: scale-down;
+}
+
+.sigma_preloader img {
+    height: 200px;
+    object-fit: scale-down;
+}
+
+img.history {
+    object-fit: cover;
+    width: 100%;
+    height: 250px;
+}
+
+.line {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid orange;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+.line span {
+    background: #f7f7f7;
+}
+
+.line span {
+    padding: 0 10px;
+    background: #f7f7f7;
+}
+
+.mobile_list span {
+    font-size: 16px;
+    color: white;
+}
+
+.mobile_list {
+    display: none;
+}
+
+#seva_list_id {
+    display: flex;
+}
+
+#user_seva_payment_form {
+    display: block;
+}
+
+#e_seva_list_nav {
+    display: block;
+}
+
+.text-2 {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    /* number of lines to show */
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+.events_body {
+    min-height: 300px;
+    max-height: 300px;
+}
+
+.events_image {
+    max-height: 230px;
+    min-height: 230px;
+}
+
+.card_adj {
+    min-height: 170px;
+    max-height: 170px;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.card_adj::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+.card_adj_testimoials {
+    min-height: 90px;
+    max-height: 90px;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.card_adj_testimoials::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+.card_adj_events {
+    min-height: 200px;
+    max-height: 250px;
+    overflow-y: auto;
+    -ms-overflow-style: none;
+    /* Internet Explorer 10+ */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.card_adj_events::-webkit-scrollbar {
+    display: none;
+    /* Safari and Chrome */
+}
+
+.crop {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.crop img {
+    width: 60%;
+    height: 100%;
+    margin: 0px 0 0 0px;
+}
+
+.crop_img {
+    width: 40%;
+    height: 70%;
+    overflow: hidden;
+}
+
+.sigma_portfolio-item:hover {
+    background-color: #fdcf00;
+    transform: translateY(-3px);
+}
+
+.home_gallery_img {
+    width: 380px;
+    height: 280px;
+}
+
+.sign_custom {
+    margin: auto !important;
+    position: inherit !important;
+    top: inherit !important;
+    left: inherit !important;
+    transition: inherit !important;
+    opacity: inherit !important;
+    visibility: inherit !important;
+    transform: inherit !important;
+    font-size: inherit !important;
+    line-height: inherit !important;
+}
+
+@media (max-width: 767px) {
+    .login_image {
+        display: none;
+    }
+    .popup-modal {
+        max-width: 100% !important;
+    }
+    .footer-widget_cat {
+        width: 50%;
+    }
+    #seva_list_id {
+        display: none !important;
+    }
+    #e_seva_list_nav {
+        display: none !important;
+    }
+    #user_seva_payment_form {
+        display: none !important;
+    }
+    .mobile_list {
+        background-color: #7E4555;
+        height: 55px;
+        display: flex !important;
+        color: white;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 7px;
+        z-index: 10;
+        margin-bottom: 0px !important;
+        margin: 0px;
+        text-align: center;
+    }
+    .sigma_service.style-2 .sigma_service-body {
+        padding: 5px;
+    }
+    .sigma_service.style-2 .sigma_service-body h6 {
+        font-size: 14px;
+        line-height: 1.7;
+    }
+    .sigma_service.style-2 .sigma_service-progress .progress-content p {
+        color: #db4242;
+        font-size: 12px;
+        font-weight: 500;
+    }
+    .sigma_btn-custom_m {
+        cursor: pointer;
+        display: inline-block;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        position: relative;
+        background-color: #7E4555;
+        border: 0;
+        color: #fff;
+        font-size: 14px;
+        text-transform: uppercase;
+        padding: 15px 30px;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+        border-radius: 30px;
+        font-weight: 600;
+        overflow: hidden;
+        z-index: 1;
+    }
+    .home_gallery_img {
+        width: 160px;
+        height: 120px;
+    }
+    /* floating button */
+    .float_button .float {
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 10px;
+        right: 22px;
+        background-color: #7E4555;
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        z-index: 1000;
+        animation: bot-to-top 2s ease-out;
+    }
+    .float_button ul {
+        position: fixed;
+        right: 10px;
+        padding-bottom: 10px;
+        bottom: 60px;
+        z-index: 100;
+    }
+    .float_button ul,
+    .float_button li {
+        list-style: none;
+        margin-bottom: 5px;
+    }
+    .float_button ul li a {
+        background-color: #7E4555;
+        color: #FFF;
+        border-radius: 10px;
+        text-align: center;
+        width: 85px;
+        height: 30px;
+        display: flex;
+    }
+    .float_button ul:hover {
+        visibility: visible!important;
+        opacity: 1!important;
+    }
+    .my-float {
+        font-size: 24px;
+        margin-top: 18px;
+    }
+    .my_float_link {
+        font-size: 15px;
+        margin-top: 6px;
+        margin-left: 6px;
+    }
+    a#menu-share+ul {
+        visibility: hidden;
+    }
+    a#menu-share:hover+ul {
+        visibility: visible;
+        animation: scale-in 0.5s;
+    }
+}

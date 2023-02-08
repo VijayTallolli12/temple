@@ -1,0 +1,80 @@
+@font-face {
+    font-family: "flaticon";
+    src: url("flaticon8fc2.ttf?a9cb31ceaacf70e63a8485b6489ff56c") format("truetype"),
+url("flaticon8fc2.woff?a9cb31ceaacf70e63a8485b6489ff56c") format("woff"),
+url("flaticon8fc2.woff2?a9cb31ceaacf70e63a8485b6489ff56c") format("woff2"),
+url("flaticon8fc2.eot?a9cb31ceaacf70e63a8485b6489ff56c#iefix") format("embedded-opentype"),
+url("flaticon8fc2.svg?a9cb31ceaacf70e63a8485b6489ff56c#flaticon") format("svg");
+}
+
+i[class^="flaticon-"]:before, i[class*=" flaticon-"]:before {
+    font-family: flaticon !important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.flaticon-hindu-wedding:before {
+    content: "\f101";
+}
+.flaticon-hindu-wedding-1:before {
+    content: "\f102";
+}
+.flaticon-hindu:before {
+    content: "\f103";
+}
+.flaticon-hindu-1:before {
+    content: "\f104";
+}
+.flaticon-hindu-2:before {
+    content: "\f105";
+}
+.flaticon-cow:before {
+    content: "\f106";
+}
+.flaticon-india:before {
+    content: "\f107";
+}
+.flaticon-powder:before {
+    content: "\f108";
+}
+.flaticon-powder-1:before {
+    content: "\f109";
+}
+.flaticon-temple:before {
+    content: "\f10a";
+}
+.flaticon-arti:before {
+    content: "\f10b";
+}
+.flaticon-bhogi:before {
+    content: "\f10c";
+}
+.flaticon-surya:before {
+    content: "\f10d";
+}
+.flaticon-ganesha:before {
+    content: "\f10e";
+}
+.flaticon-mehndi:before {
+    content: "\f10f";
+}
+.flaticon-pooja:before {
+    content: "\f110";
+}
+.flaticon-coin:before {
+    content: "\f111";
+}
+.flaticon-call:before {
+    content: "\f112";
+}
+.flaticon-email:before {
+    content: "\f113";
+}
+.flaticon-location:before {
+    content: "\f114";
+}

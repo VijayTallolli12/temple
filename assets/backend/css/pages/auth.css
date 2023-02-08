@@ -1,0 +1,45 @@
+body {
+    background-color: #fff
+}
+
+#auth {
+    height: 100vh;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+#auth #auth-right {
+    /* padding: 2rem 8rem; */
+    height: 100vh;
+    background-size: cover;
+    background-color: #2d499d;
+}
+
+#auth #auth-left {
+    padding: 2rem 3rem
+}
+
+#auth #auth-left .auth-title {
+    font-size: 4rem;
+    margin-bottom: 1rem
+}
+
+#auth #auth-left .auth-subtitle {
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    color: #a8aebb
+}
+
+#auth #auth-left .auth-logo {
+    margin-bottom: 3rem
+}
+
+#auth #auth-left .auth-logo img {
+    height: 2rem
+}
+
+@media screen and (max-width:767px) {
+    #auth #auth-left {
+        padding: 5rem
+    }
+}
