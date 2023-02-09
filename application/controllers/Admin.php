@@ -1880,5 +1880,15 @@ class Admin extends CI_Controller
         }
     }
 
-    
+    // Orders
+    public function orders(){
+        $page_data['page_name'] = "orders";
+        $page_data['page_title'] = "Booked Seva / Kanike";
+        //$page_data['payment_details'] = $this->payment_model->get_seva_payment();
+        if ($this->session->userdata("Shiroor_Admin")) {
+            $this->load->view("backend/admin/index", $page_data);
+        } else {
+            $this->login();
+        }
+    }
 }
